@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section id="cta" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-tr from-indigo-600 to-fuchsia-600 text-white">
+        <div className="relative overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 bg-gradient-to-tr from-indigo-600 to-fuchsia-600 text-white">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.15),transparent_40%),radial-gradient(circle_at_80%_0,rgba(255,255,255,0.12),transparent_35%)] pointer-events-none" />
           <div className="relative p-10 sm:p-14 lg:p-16 grid lg:grid-cols-2 gap-10 items-center">
             <div>
@@ -35,7 +35,7 @@ export default function CTA() {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-center text-xs text-slate-500">© {new Date().getFullYear()} VibeForge AI. All rights reserved.</p>
+        <p className="mt-8 text-center text-xs text-slate-500 dark:text-slate-400">© {new Date().getFullYear()} VibeForge AI. All rights reserved.</p>
       </div>
     </section>
   );
